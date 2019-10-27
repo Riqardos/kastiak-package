@@ -1,0 +1,26 @@
+{
+  "name": "kastiak-package",
+  "version": "1.0.0",
+  "description": "Experimental package",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha --color test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riqardos/kastiak-package.git"
+  },
+  "author": "Richard Kastiak",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Riqardos/kastiak-package/issues"
+  },
+  "homepage": "https://github.com/Riqardos/kastiak-package#readme"
+}
