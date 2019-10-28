@@ -14,6 +14,5 @@ function min(x, y){
 	return x < y ? x : y;
 }
 
-console.log(max(3,2));
-// console.log(multiply(1,2));
+
 
