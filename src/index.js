@@ -1,5 +1,5 @@
 module.exports = {
-	multiply,max
+	multiply,max,min
 }
 
 function multiply(x, y){
@@ -8,6 +8,10 @@ function multiply(x, y){
 
 function max(x, y){
 	return x > y ? x : y;
+}
+
+function min(x, y){
+	return x < y ? x : y;
 }
 
 console.log(max(3,2));
